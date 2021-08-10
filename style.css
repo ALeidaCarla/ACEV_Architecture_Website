@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+	font-family: georgia,time, serif;/* letra*tipo */
+  color:#001d3d;/*% color letra*/
+  font-size: 1rem;/*% tamaño letra*/
+  line-height: 1.6em;/*entrelineado */
+  margin:0 auto;/* CERO elimina el margen por defecto */
+  background:*/
+}
+h1 {
+  align-items:center;/*alineados al centro*/
+  font-size: 1rem;
+  line-height: 1.3em;
+  animation-iteration-count:infinite;
+}
+h2 {
+font-family: 'Architects Daughter', cursive;/* letra*tipo */
+  color:#003566;/*% color letra*/
+  animation-iteration-count:infinite;
+}
+h3 {
+  font-family: 'Architects Daughter', cursive;/* letra*tipo */
+
+  color:#003566;/*% color letra*/
+  animation:flash;
+  animation-iteration-count:infinite;
+}
+h4 {
+  color:#003566;/*% color letra*/
+}
+p {
+  margin-bottom: 1em;/*margen de parrafo */
+}
+nav :hover{
+  text-decoration: none;
+  background:yellow ;
+}
+main {
+      padding-top: 2rem;
+}
+.container {
+  align-items:center;/*alineados al centro*/
+  width: 85%; /*% de ANCHO para que el contenido este centrado */
+  max-width: 850px; /*ADQUIERE ANCHO max segun el tamaño de despisitovo o ventana*/
+  margin:0 auto; /*CERO para que el contenido este centrado */
+}
+ .header{
+  z-index: 1;
+  background-image:url(images/ar4.jpeg) ;/*% color del fondo de la cabecera*/
+  background-size: cover;/*recorta la imagen dando un tamañoal  fondo de la cabecera*/
+  height: 142px;/*alto del backgraund*/
+  padding:  10;/*borde entre backgraund y el contenido*/
+  position: fixed;/*% saca elemento de su flujo natural 1ER PLANO*/
+  left: 0;
+  top: 0;
+  right:0;
+  color: yellow; /*% color letra*/
+  text-decoration: none;
+}
+}
+ .logo-nav-container{
+  display:flex;/*los elementos se justifiquen FLEX BOX */
+  align-items:center;/*alineados al centro*/
+  justify-content: space-between;/*% de ANCHO para que el contenido este centrado */
+  margin:5rem;
+  padding:0;
+  
+}
+#letralogo{
+  align-items:center;/*alineados al centro*/
+  right:300;
+  display:flex;/*los elementos se justifiquen FLEX BOX */
+  width: 85%; /*% de ANCHO para que el contenido este centrado */
+  max-width:850px; /*ADQUIERE ANCHO max segun el tamaño de despisitovo o ventana*/
+  margin:0rem;
+  padding:0 150;
+  line-height: 1.3em;/*entrelineado */
+ 
+}
+#foto{
+  width: 10%;
+  float: left;
+  padding-left:15px;
+}
+#mifoto{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#disarqfoto{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#consfoto{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+#interiorfoto{
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.logo{ 
+  letter-spacing: 5px;
+}
+.navigation ul {
+  max-width:850px; /*ADQUIERE ANCHO max segun el tamaño de despisitovo o ventana*/
+  align-items:center;/*alineados al centro*/
+  display:flex;/*los elementos se justifiquen FLEX BOX */
+  justify-content:space-between;/*% de ANCHO para que el contenido este centrado */
+  list-style:none;
+ }
+.navigation ul li {
+  display:inline-block;
+}
+.navigation ul li a {
+  display:block;
+  padding:0.5rem 1rem;
+  transition:all 0.4s linear;
+  border-radius:5px;
+} 
+.navigation ul li a :hover {
+  background:#4a4a4a;
+}
+.main {
+   padding-top:12rem;/*alto del contenido*/
+}
+.mainser {
+    padding-top:222rem;/*alto del contenido*/
+}
+    @media only screen and (max-width:767px){
+
+    }
+#headfoot{
+  background:yellow;
+}
+#contacto ul {
+  align-items:center;/*alineados al centro*/
+  display:flex;/*los elementos se justifiquen FLEX BOX */
+  justify-content:space-between;/*% de ANCHO para que el contenido este centrado */
+} 
+.class75{
+  width:75%;
+  float:left;
+} 
+.class25{
+  width:25%;
+  float:right;
+} 
+.reinicio{
+  clear:both;
+}
+.padinpa{
+ padding:right 50px;
+}
+
+footer{
+  background-image:url(images/ar4.jpeg) ;/*% color del fondo de la cabecera*/
+  padding:0;
+  text-align:center;
+  margin-top:0;
+}
+#headarticle{
+  background:#003566;
+}
+#mensaje{
+ color: yellow; /*% color letra*/
+}
+#fecha{
+  color: white; /*% color letra*/
+}
+#footarticle{
+  background:#003566;
+}
+#foot{
+  background:none;
+} 
